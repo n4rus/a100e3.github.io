@@ -1,0 +1,23 @@
+head {
+    float: center;
+    align: center;
+    align-text: center;
+}
+
+body {
+    float: center;
+    align: center;
+    align-text: center;
+}
+
+h3 {
+    float: center;
+    align: center;
+    align-text: center;
+}
+
+.contact {
+    float: center;
+    align: left;
+    align-text: left;
+}
