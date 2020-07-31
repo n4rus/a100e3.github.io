@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #This script downloads the repositories at n4rus to merge then into one
-#103 is the first product from n4rus as an service to the A100 & 3 project
+#p103 is an product from n4rus in service to the A100 & 3 company project
 
 echo "Hello $USER!"
 echo "This script one day will be set to an a.i. ..."
@@ -21,8 +21,8 @@ if [ $pushorno == "n" ]; then
 elif [ $pushorno == "y" ]; then
     echo "Starting git clone ..."
     git clone https://github.com/n4rus/a100e3
-    #io must be already cloned
-    git clone https://github.com/n4rus/a100e3.github.io
+    #io must be already cloned as p103.sh must be initiated inside it
+    #git clone https://github.com/n4rus/a100e3.github.io
     git clone https://github.com/n4rus/misc
     git clone https://github.com/n4rus/n4rus.github.io
     git clone https://github.com/n4rus/p103
