@@ -1,0 +1,37 @@
+h3 {
+    float: center;
+    align: center;
+    align-text: center;
+    color: purple;
+}
+
+.promo {
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("./promo.jpg");
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    
+}
+
+html {
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("./bg.jpg");
+}
+
+.footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("./bg.jpg");
+    align-text: left;
+    text-color: white;
+    color: white;
+}

@@ -1,6 +1,3 @@
-#!/bin/python
-#
-
 -rwxr-xr-x 1 n4rus n4rus   2522 Jul 31 12:32 ./p103.sh
 -rw-r--r-- 1 n4rus n4rus    705 Jul 30 15:27 ./index.css
 -rw-r--r-- 1 n4rus n4rus    388 Jul 30 15:21 ./index.html
@@ -26,4 +23,3 @@ drwxr-xr-x 2 n4rus n4rus  4096 Jul 31 13:19 n4rus.github.io
 drwxr-xr-x 2 n4rus n4rus  4096 Jul 31 13:19 p103
 drwxr-xr-x 2 n4rus n4rus  4096 Jul 31 13:19 pi
 drwxr-xr-x 2 n4rus n4rus  4096 Jul 31 13:19 white-void
-
