@@ -72,10 +72,12 @@ elif [ $commitquit == "c" ]; then
 	
 	read commentary
 	git commit -m "$commentary"
+	
 	#6. Call the user to push
 	echo "Commit successfully updated, do you want to upload the updates?"
 	echo "Type 'y' for yes or 'n' for no"
 	read -n 1 updateyn
+
 	if [ $updateyn == "y" ]; then
 	   echo "proceeding to push..."
 	   echo "Type the number of the repository to update followed by [Enter]:"
@@ -86,14 +88,25 @@ elif [ $commitquit == "c" ]; then
 	   echo " [4] = https://github.com/n4rus/p103"
 	   echo " [5] = https://github.com/n4rus/pi"
 	   echo " [6] = https://github.com/n4rus/white-void"
-	   0="https://github.com/n4rus/a100e3"
-	   1="https://github.com/n4rus/a100e3.github.io"
-	   2="https://github.com/n4rus/n4rus.github.io"
-	   3="https://github.com/n4rus/misc"
-	   4="https://github.com/n4rus/p103"
-	   5="https://github.com/n4rus/pi"
-	   6="https://github.com/n4rus/white-void"
 	   read -n 1 reponame
+
+	   if [ $reponame == "0" ]; then
+	       git push https://github.com/n4rus/a100e3
+	       elif [ $reponame == "1" ]; then
+	       git push https://github.com/n4rus/a100e3.github.io
+	       elif [ $reponame == "2" ]; then
+	       git push https://github.com/n4rus/n4rus.github.io
+	       elif [ $reponame == "3" ]; then
+	       git push https://github.com/n4rus/misc
+	       elif [ $reponame == "4" ]; then
+	       git push https://github.com/n4rus/p103
+	       elif [ $reponame == "5" ]; then
+	       git push https://github.com/n4rus/pi
+	       elif [ $reponame == "6" ]; then
+	       git push https://github.com/n4rus/white-void
+	   else
+	       echo "Character not listed, quiting ... "
+	   fi
 	   git push $reponame    
 	   elif [ $updateyn == "n"]; then
 		echo "Don't forget to update later, bye!"
