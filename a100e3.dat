@@ -55,3 +55,54 @@ drwxr-xr-x 4 n4rus n4rus 4096 Jul 31 12:34 white-void
 drwxr-xr-x 5 n4rus n4rus 4096 Jul 31 12:33 pi
 drwxr-xr-x 4 n4rus n4rus 4096 Jul 31 12:33 p103
 drwxr-xr-x 3 n4rus n4rus 4096 Jul 31 12:33 n4rus.github.io
+-rw-r--r-- 1 n4rus sudo   2518 Aug  4 14:35 ./a100e3.dat
+-rw-r--r-- 1 n4rus sudo   2536 Aug  4 14:35 ./a100e3.py
+-rw-r--r-- 1 n4rus sudo  71889 Aug  4 14:35 ./bg.jpg
+-rw-r--r-- 1 n4rus sudo    705 Aug  4 14:35 ./index.css
+-rw-r--r-- 1 n4rus sudo    388 Aug  4 14:35 ./index.html
+-rwxr-xr-x 1 n4rus sudo   2561 Aug  4 14:35 ./p103.sh
+-rwxr-xr-x 1 n4rus sudo 124727 Aug  4 14:35 ./promo.jpg
+
+./a100e3:
+total 28
+drwxr-xr-x 4 n4rus sudo 4096 Aug  4 14:36 white-void
+drwxr-xr-x 5 n4rus sudo 4096 Aug  4 14:36 pi
+drwxr-xr-x 4 n4rus sudo 4096 Aug  4 14:36 p103
+drwxr-xr-x 3 n4rus sudo 4096 Aug  4 14:36 n4rus.github.io
+drwxr-xr-x 3 n4rus sudo 4096 Aug  4 14:36 misc
+drwxr-xr-x 2 n4rus sudo 4096 Aug  4 14:36 a100e3page
+-rw-r--r-- 1 n4rus sudo   42 Aug  4 14:36 README.md
+-rw-r--r-- 1 n4rus sudo    636 Aug 15 12:46 ./index.css
+-rw-r--r-- 1 n4rus sudo    466 Aug 15 12:38 ./index.html
+-rw-r--r-- 1 n4rus sudo   3282 Aug  4 14:36 ./a100e3.dat
+-rwxr-xr-x 1 n4rus sudo   3300 Aug  4 14:36 ./a100e3.py
+-rw-r--r-- 1 n4rus sudo  71889 Aug  4 14:35 ./bg.jpg
+-rwxr-xr-x 1 n4rus sudo   2561 Aug  4 14:35 ./p103.sh
+-rwxr-xr-x 1 n4rus sudo 124727 Aug  4 14:35 ./promo.jpg
+
+./a100e3:
+total 28
+drwxr-xr-x 3 n4rus sudo 4096 Aug  4 14:37 a100e3page
+drwxr-xr-x 4 n4rus sudo 4096 Aug  4 14:36 white-void
+drwxr-xr-x 5 n4rus sudo 4096 Aug  4 14:36 pi
+drwxr-xr-x 4 n4rus sudo 4096 Aug  4 14:36 p103
+drwxr-xr-x 3 n4rus sudo 4096 Aug  4 14:36 n4rus.github.io
+drwxr-xr-x 3 n4rus sudo 4096 Aug  4 14:36 misc
+-rw-r--r-- 1 n4rus sudo   42 Aug  4 14:36 README.md
+-rwxr-xr-x 1 n4rus sudo   4064 Aug 15 12:47 ./a100e3.py
+-rw-r--r-- 1 n4rus sudo   4046 Aug 15 12:47 ./a100e3.dat
+-rw-r--r-- 1 n4rus sudo    636 Aug 15 12:46 ./index.css
+-rw-r--r-- 1 n4rus sudo    466 Aug 15 12:38 ./index.html
+-rw-r--r-- 1 n4rus sudo  71889 Aug  4 14:35 ./bg.jpg
+-rwxr-xr-x 1 n4rus sudo   2561 Aug  4 14:35 ./p103.sh
+-rwxr-xr-x 1 n4rus sudo 124727 Aug  4 14:35 ./promo.jpg
+
+./a100e3:
+total 28
+drwxr-xr-x 3 n4rus sudo 4096 Aug  4 14:37 a100e3page
+drwxr-xr-x 4 n4rus sudo 4096 Aug  4 14:36 white-void
+drwxr-xr-x 5 n4rus sudo 4096 Aug  4 14:36 pi
+drwxr-xr-x 4 n4rus sudo 4096 Aug  4 14:36 p103
+drwxr-xr-x 3 n4rus sudo 4096 Aug  4 14:36 n4rus.github.io
+drwxr-xr-x 3 n4rus sudo 4096 Aug  4 14:36 misc
+-rw-r--r-- 1 n4rus sudo   42 Aug  4 14:36 README.md
