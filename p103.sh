@@ -72,7 +72,34 @@ elif [ $commitquit == "c" ]; then
 	
 	read commentary
 	git commit -m "$commentary"
-	git push https://github.com/n4rus/a100e3.github.io
+	#6. Call the user to push
+	echo "Commit successfully updated, do you want to upload the updates?"
+	echo "Type 'y' for yes or 'n' for no"
+	read updateyn
+	if [ $updateyn == "y"]; then
+	   echo "proceeding to push..."
+	   echo "Type the number of the repository to update followed by [Enter]:"
+	   echo " [0] = https://github.com/n4rus/a100e3 "
+	   echo " [1] = https://github.com/n4rus/a100e3.github.io"
+	   echo " [2] = https://github.com/n4rus/n4rus.github.io"
+	   echo " [3] = https://github.com/n4rus/misc"
+	   echo " [4] = https://github.com/n4rus/p103"
+	   echo " [5] = https://github.com/n4rus/pi"
+	   echo " [6] = https://github.com/n4rus/white-void"
+	   0="https://github.com/n4rus/a100e3"
+	   1="https://github.com/n4rus/a100e3.github.io"
+	   2="https://github.com/n4rus/n4rus.github.io"
+	   3="https://github.com/n4rus/misc"
+	   4="https://github.com/n4rus/p103"
+	   5="https://github.com/n4rus/pi"
+	   6="https://github.com/n4rus/white-void"
+	   read reponame
+	   git push $reponame    
+	   elif [ $updateyn == "n"]; then
+		echo "Don't forget to update later, bye!"
+	   else
+	       echo "You typed something else, please restart the script."
+	       fi
 else
     echo "Input not recognized, quiting ..."
 fi
