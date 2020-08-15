@@ -89,6 +89,7 @@ elif [ $commitquit == "c" ]; then
 	   echo " [5] = https://github.com/n4rus/pi"
 	   echo " [6] = https://github.com/n4rus/white-void"
 	   read -n 1 reponame
+	   echo " ... "
 
 	   if [ $reponame == "0" ]; then
 	       git push https://github.com/n4rus/a100e3
@@ -107,10 +108,9 @@ elif [ $commitquit == "c" ]; then
 	   else
 	       echo "Character not listed, quiting ... "
 	   fi
-	   git push $reponame    
-	   elif [ $updateyn == "n"]; then
-		echo "Don't forget to update later, bye!"
-	   else
+	elif [ $updateyn == "n"]; then
+	    echo "Don't forget to update later, bye!"
+	else
 	       echo "You typed something else, please restart the script."
 	fi
 else
