@@ -75,7 +75,7 @@ elif [ $commitquit == "c" ]; then
 	#6. Call the user to push
 	echo "Commit successfully updated, do you want to upload the updates?"
 	echo "Type 'y' for yes or 'n' for no"
-	read updateyn
+	read -n 1 updateyn
 	if [ $updateyn == "y"]; then
 	   echo "proceeding to push..."
 	   echo "Type the number of the repository to update followed by [Enter]:"
