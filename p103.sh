@@ -12,44 +12,93 @@ git init
 echo "Would you like to download the repositories from" 
 echo "github.com/n4rus? Type 'y' for yes or 'n' for no:"
 
-read -n 1 pushorno
-echo
+read -n 1 cloneorno
 
-if [ $pushorno == "n" ]; then
+if [ $cloneorno == "n" ]; then
     echo "Proceeding without cloning ..."
-    echo "Alert: Without the repos the script may not function."
-elif [ $pushorno == "y" ]; then
-    echo "Starting git clone ..."
-    git clone https://github.com/n4rus/a100e3
-    #io must be already cloned as p103.sh must be initiated inside it
-    #git clone https://github.com/n4rus/a100e3.github.io
-    git clone https://github.com/n4rus/misc
-    git clone https://github.com/n4rus/n4rus.github.io
-    git clone https://github.com/n4rus/p103
-    git clone https://github.com/n4rus/pi
-    git clone https://github.com/n4rus/white-void
-    #2. Make 103 dir to move the folders into it
-    echo "Now moving them into the a100e3 folder"
-    mv n4rus.github.io ./a100e3/ -v
-    mv pi ./a100e3/ -v
-    mv p103 ./a100e3/ -v 
-    mv white-void ./a100e3/ -v
-    mv misc ./a100e3 -v
+    echo "Alert: Without the repos this script may not function."
+
+elif [ $cloneorno == "y" ]; then
+    
+    if [ $cloneorno == "y" ]; then
+	echo "proceeding to clone..."
+	echo "Type the corresponding number for the repository to clone followed by [Enter]:"
+	echo " [0] = https://github.com/n4rus/a100e3 "
+	echo " [1] = https://github.com/n4rus/a100e3.github.io"
+	echo " [2] = https://github.com/n4rus/n4rus.github.io"
+	echo " [3] = https://github.com/n4rus/misc"
+	echo " [4] = https://github.com/n4rus/p103"
+	echo " [5] = https://github.com/n4rus/pi"
+	echo " [6] = https://github.com/n4rus/white-void"
+	echo " [7] = Clone all repositories listed above "
+	read -n 1 reponame
+	echo " ... "
+	echo "Starting git clone ..."
+
+	if [ $reponame == "0" ]; then
+	    git clone https://github.com/n4rus/a100e3
+	elif [ $reponame == "1" ]; then
+	    git clone https://github.com/n4rus/a100e3.github.io
+	elif [ $reponame == "2" ]; then
+	    git clone https://github.com/n4rus/n4rus.github.io
+	elif [ $reponame == "3" ]; then
+	    git clone https://github.com/n4rus/misc
+	elif [ $reponame == "4" ]; then
+	    git clone https://github.com/n4rus/p103
+	elif [ $reponame == "5" ]; then
+	    git clone https://github.com/n4rus/pi
+	elif [ $reponame == "6" ]; then
+	    git clone https://github.com/n4rus/white-void
+	elif [ $reponame == "7" ]; then
+	    git clone https://github.com/n4rus/a100e3
+	    git clone https://github.com/n4rus/a100e3.github.io
+	    git clone https://github.com/n4rus/misc
+	    git clone https://github.com/n4rus/n4rus.github.io
+	    git clone https://github.com/n4rus/p103
+	    git clone https://github.com/n4rus/pi
+	    git clone https://github.com/n4rus/white-void
+	else
+	    echo "Character not listed, quiting ... "
+	fi
+    
+	#2. Make 103 dir to move the folders into it
+	echo "Do you want to indent the repositories into the a100e3 folder?"
+	read -n 1 indentyn
+	
+	if [ $indentyn == "y" ]; then
+	echo "Now moving them into the a100e3 folder"
+	mv n4rus.github.io ./a100e3/ -v
+	mv pi ./a100e3/ -v
+	mv p103 ./a100e3/ -v 
+	mv white-void ./a100e3/ -v
+	mv misc ./a100e3 -v
+	elif [ $indentyn == "n" ]; then
+	    echo "Leaving repositories without indenting ..."
+	else
+	    echo "input not recognized, proceeding without indenting ..."
+	fi
+    fi
 else
 	    echo "Input not recognized, proceeding without cloning ..."
 	    echo "Alert: Without the repos the script may not function."
 fi
 
-#3. Merge and order content ocording to p103
-echo "Create the python script file and the item table:"
-echo "a100e3 item list into a100e3 file and within the a100e3.py script"
-ls -lt ./* >> a100e3.dat
-echo "#!"/bin/python > a100e3.py
-echo "#" >> a100e3.py
-echo """" >> a100e3.py
-cat a100e3.dat >> a100e3.py
-echo """" >> a100e3.py
+#3. Merge and order content acording to p103
+echo "Merge and order content? Type 'y' for yes, or 'n' for no, followed by [Enter]:"
+read -n 1 mergeyn
 
+if [ $mergeyn == "y" ];then
+    echo "Updating the python script file and the item table:"
+    echo "a100e3 item list into a100e3 file and within the a100e3.py script"
+    ls -lt ./* >> a100e3.dat
+    echo "#!"/bin/python > a100e3.py
+    echo "#" >> a100e3.py
+    echo """" >> a100e3.py
+    cat a100e3.dat >> a100e3.py
+    echo """" >> a100e3.py
+else
+    echo "Proceeding without merging ..."
+fi
 #We could add some code to search an item accordinng to user intentions 
 #var=user-int_or_variable+-err
 #find ./* | grep var
@@ -78,7 +127,7 @@ elif [ $commitquit == "c" ]; then
 	echo "Type 'y' for yes or 'n' for no"
 	read -n 1 updateyn
 
-	if [ $updateyn == "y" ]; then
+        if [ $updateyn == "y" ]; then
 	   echo "proceeding to push..."
 	   echo "Type the number of the repository to update followed by [Enter]:"
 	   echo " [0] = https://github.com/n4rus/a100e3 "
