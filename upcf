@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#  This File is meant to be free information as it is a mean to make any human
+#  able to produce frelly, having its own timestamp-chain for products code
+#  bars, wich enables shipping wordwide or even country-wide possible, or more
+#  effective. There are many aspects to be correctect, and even the my typing
+#  and my english fails me a lot, even in my main language there are pieces
+#  of shit missing, thats why you guys can make it better! Science is going on!
+
+#1. The company name (2^99+n)
+
+#2. The product name (2^99+n)
+
+#3. The product version Shipment Box size (height/width/depth/mass)(2^99+n)
+
+#4. The product category (2^99+n)
+
+#5. The above product at a blockchain timestamp-server for id confirmation
