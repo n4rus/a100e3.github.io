@@ -310,4 +310,19 @@ total 28
 drwxr-xr-x 2 n4rus sudo 12288 Oct 14 17:08 p400-713
 drwxr-xr-x 2 n4rus sudo 12288 Oct  8 17:41 p0-399
 drwxr-xr-x 2 n4rus sudo  4096 Oct  5 16:22 type-d
+-rw-r--r-- 1 n4rus sudo   13876 Oct 14 17:44 ./a100e3.dat
+-rwxr-xr-x 1 n4rus sudo   13894 Oct 14 17:44 ./a100e3.py
+-rw-r--r-- 1 n4rus sudo     746 Oct 14 17:43 ./index.html
+-rw-r--r-- 1 n4rus sudo   19862 Oct 14 17:30 ./servicos-digitais.ods
+-rw-r--r-- 1 n4rus sudo     730 Sep 28 15:02 ./upcf
+-rw-r--r-- 1 n4rus sudo     636 Aug 29 11:01 ./index.css
+-rwxr-xr-x 1 n4rus sudo    5761 Aug 25 21:26 ./p103.sh
+-rw-r--r-- 1 n4rus sudo   71889 Aug 24 15:53 ./bg.jpg
+-rwxr----- 1 n4rus sudo 1750775 Aug 15 14:14 ./led.jpg
+
+./scan:
+total 28
+drwxr-xr-x 2 n4rus sudo 12288 Oct 14 17:08 p400-713
+drwxr-xr-x 2 n4rus sudo 12288 Oct  8 17:41 p0-399
+drwxr-xr-x 2 n4rus sudo  4096 Oct  5 16:22 type-d
 
