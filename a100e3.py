@@ -1,6 +1,7 @@
 #!/bin/python
 #
 
+
 -rwxr-xr-x 1 n4rus n4rus   2522 Jul 31 12:32 ./p103.sh
 -rw-r--r-- 1 n4rus n4rus    705 Jul 30 15:27 ./index.css
 -rw-r--r-- 1 n4rus n4rus    388 Jul 30 15:21 ./index.html
@@ -325,4 +326,59 @@ total 28
 drwxr-xr-x 2 n4rus sudo 12288 Oct 14 17:08 p400-713
 drwxr-xr-x 2 n4rus sudo 12288 Oct  8 17:41 p0-399
 drwxr-xr-x 2 n4rus sudo  4096 Oct  5 16:22 type-d
+-rw-r--r-- 1 n4rus sudo   33071 Oct 16 14:17 ./servicos-digitais.ods
+-rw-r--r-- 1 n4rus sudo   14562 Oct 15 13:48 ./a100e3.dat
+-rw-r--r-- 1 n4rus sudo     744 Oct 14 17:49 ./index.html
+-rwxr-xr-x 1 n4rus sudo   14579 Oct 14 17:45 ./a100e3.py
+-rw-r--r-- 1 n4rus sudo     730 Sep 28 15:02 ./upcf
+-rw-r--r-- 1 n4rus sudo     636 Aug 29 11:01 ./index.css
+-rwxr-xr-x 1 n4rus sudo    5761 Aug 25 21:26 ./p103.sh
+-rw-r--r-- 1 n4rus sudo   71889 Aug 24 15:53 ./bg.jpg
+-rwxr----- 1 n4rus sudo 1750775 Aug 15 14:14 ./led.jpg
+
+./a100e3.github.io:
+total 1860
+-rw-r--r-- 1 n4rus sudo   19862 Oct 16 18:43 servicos-digitais.ods
+-rw-r--r-- 1 n4rus sudo     730 Oct 16 18:43 upcf
+drwxr-xr-x 5 n4rus sudo    4096 Oct 16 18:43 scan
+-rwxr-xr-x 1 n4rus sudo 1750775 Oct 16 18:43 led.jpg
+-rwxr-xr-x 1 n4rus sudo    5761 Oct 16 18:43 p103.sh
+-rw-r--r-- 1 n4rus sudo   14561 Oct 16 18:43 a100e3.dat
+-rwxr-xr-x 1 n4rus sudo   14579 Oct 16 18:43 a100e3.py
+-rw-r--r-- 1 n4rus sudo   71889 Oct 16 18:43 bg.jpg
+-rw-r--r-- 1 n4rus sudo     636 Oct 16 18:43 index.css
+-rw-r--r-- 1 n4rus sudo     744 Oct 16 18:43 index.html
+
+./scan:
+total 47096
+drwxr-xr-x 2 n4rus sudo    12288 Oct 16 18:39 p0-399
+-rw-r--r-- 1 n4rus sudo 48193920 Oct 15 21:00 Intriguing-Surreality.pdf
+drwxr-xr-x 2 n4rus sudo    12288 Oct 14 17:08 p400-680
+drwxr-xr-x 2 n4rus sudo     4096 Oct  5 16:22 type-d
+
+./a100e3:
+total 12
+drwxr-xr-x 3 n4rus sudo 4096 Oct 15 12:40 project_IoE
+-rw-r--r-- 1 n4rus sudo 5134 Oct 15 12:40 README.md
+-rwxr-xr-x 1 n4rus sudo   16054 Oct 16 18:43 ./a100e3.py
+-rw-r--r-- 1 n4rus sudo   16036 Oct 16 18:43 ./a100e3.dat
+-rw-r--r-- 1 n4rus sudo   33071 Oct 16 14:17 ./servicos-digitais.ods
+-rw-r--r-- 1 n4rus sudo     744 Oct 14 17:49 ./index.html
+-rw-r--r-- 1 n4rus sudo     730 Sep 28 15:02 ./upcf
+-rw-r--r-- 1 n4rus sudo     636 Aug 29 11:01 ./index.css
+-rwxr-xr-x 1 n4rus sudo    5761 Aug 25 21:26 ./p103.sh
+-rw-r--r-- 1 n4rus sudo   71889 Aug 24 15:53 ./bg.jpg
+-rwxr----- 1 n4rus sudo 1750775 Aug 15 14:14 ./led.jpg
+
+./scan:
+total 47096
+drwxr-xr-x 2 n4rus sudo    12288 Oct 16 18:39 p0-399
+-rw-r--r-- 1 n4rus sudo 48193920 Oct 15 21:00 Intriguing-Surreality.pdf
+drwxr-xr-x 2 n4rus sudo    12288 Oct 14 17:08 p400-680
+drwxr-xr-x 2 n4rus sudo     4096 Oct  5 16:22 type-d
+
+./a100e3:
+total 12
+drwxr-xr-x 3 n4rus sudo 4096 Oct 15 12:40 project_IoE
+-rw-r--r-- 1 n4rus sudo 5134 Oct 15 12:40 README.md
 
