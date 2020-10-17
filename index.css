@@ -1,17 +1,28 @@
-h3 {
-    float: center;
+h1 {
+    color: silver;
+    align: center;
+    align-text: center;
+}
+
+a:visited {
+    color: silver;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.anuncio {
     align: center;
     align-text: center;
     color: purple;
-}
+    position: relative;
+    }
 
-.panel {
-    background-color: black;
-    background-position: center;
-    width: 100%;
-    bottom: 06.1617%;
-    position: fixed;
-    
+.book1 {
+    align: center;
+    position: relative;
 }
 
 html {
@@ -25,11 +36,10 @@ html {
     width: 100%;
     bottom: 0;
     position: fixed;
-    background-color: black;
+    background-color: none;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("./bg.jpg");
     align-text: left;
-    text-color: white;
-    color: white;
+    color: black;
 }
