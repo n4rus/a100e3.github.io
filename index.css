@@ -5,7 +5,7 @@ html {
 body {
     background-position: center;
     background-repeat: no-repeat;
-    background-color: 0;
+    background-color: black;
     background-image: url("https://raw.githubusercontent.com/n4rus/a100e3.github.io/master/bg.jpg");
 }
 
@@ -29,25 +29,21 @@ a:link {
     align-text: center;
     color: purple;
     position: relative;
-    backcroung-color: 0;
     }
 
 .book1 {
     align: center;
     position: relative;
-    backcroung-color: 0;
 }
 
 .tbot {
     align: center;
     position: relative;
-    backcroung-color: 0;
 }
 
 .white-void {
     align: center;
     position: relative;
-    backcroung-color: 0;
 }
 
 .footer {
