@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-position: center;
+    background-position: fill;
     background-repeat: no-repeat;
     background-color: black;
     background-image: url("https://raw.githubusercontent.com/n4rus/a100e3.github.io/master/bg.jpg");
