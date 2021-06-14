@@ -3,10 +3,10 @@ html {
 }
 
 body {
-    background-position: fill;
+    background-position: center;
     background-repeat: no-repeat;
     background-color: black;
-    background-image: url("https://raw.githubusercontent.com/n4rus/a100e3.github.io/master/bg.jpg");
+    background-image: url("https://raw.githubusercontent.com/n4rus/a100e3.github.io/master/led.jpg");
 }
 
 h1 {
