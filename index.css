@@ -20,6 +20,10 @@ h1 {
     align-text: center;
 }
 
+p {
+    color: gray;
+}
+
 a:visited {
     color: silver;
 }
