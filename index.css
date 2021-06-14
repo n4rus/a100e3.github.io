@@ -29,7 +29,7 @@ html {
     background-color: black;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("./bg.jpg");
+    background-image: url("https://raw.githubusercontent.com/n4rus/a100e3.github.io/master/bg.jpg");
 }
 
 .footer {
@@ -39,7 +39,7 @@ html {
     background-color: none;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("./bg.jpg");
+    background-image: url("https://raw.githubusercontent.com/n4rus/a100e3.github.io/master/bg.jpg");
     align-text: left;
     color: black;
 }
