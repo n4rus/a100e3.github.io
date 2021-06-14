@@ -1,5 +1,7 @@
 html {
     background-color: black;
+}
+body {
     height:100%;
     max-width: 100%;
     background-repeat: no-repeat;
