@@ -4,6 +4,7 @@ html {
 body {
     height:100%;
     max-width: 100%;
+    background-repeat: no-repeat;
     background-color: black;
     background-image: url("./20200901_151428.jpg");
 }
