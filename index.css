@@ -4,9 +4,8 @@ html {
 body {
     height:100%;
     max-width: 100%;
-    background-repeat: True;
     background-color: black;
-    background-image: url("./bg.jpg);
+    background-image: url("./newbg.jpg);
 }
 
 h1 {
