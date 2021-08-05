@@ -4,7 +4,7 @@ html {
 body {
     height:100%;
     max-width: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-color: black;
     background-image: url("./bg.jpg);
 }
